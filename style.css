@@ -405,6 +405,14 @@ body:has(button:hover) .cursor {
   letter-spacing: -0.02em;
 }
 
+#links-portfolio {
+    transition: transform 0.3s ease;
+}
+
+#links-portfolio:hover {
+    transform: scale(1.04);
+}
+
 /* Texto decorativo grande no visual */
 .pv-cafe::after {
   content: 'CAFÉ';
