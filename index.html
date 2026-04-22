@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Lucca — Desenvolvimento Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CURSOR CUSTOMIZADO -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-logo">FL<span>.</span></div>
+    <div class="nav-direita">
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#contato" class="nav-link">Contato</a>
+      <a href="https://wa.me/5549998258396" target="_blank" class="nav-cta">WhatsApp</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-ruido"></div>
+    <div class="hero-linhas">
+      <div class="linha l1"></div>
+      <div class="linha l2"></div>
+      <div class="linha l3"></div>
+    </div>
+    <div class="hero-conteudo">
+      <div class="hero-disponivel">
+        <span class="dot-verde"></span>
+        Disponível para novos projetos
+      </div>
+      <h1 class="hero-nome">
+        Felipe<br>
+        <em>Lucca</em><br>
+        da Cunha
+      </h1>
+      <div class="hero-tag-wrap">
+        <span class="hero-tag">Desenvolvimento Web</span>
+        <span class="hero-tag">São Miguel do Oeste · SC</span>
+      </div>
+      <p class="hero-frase">
+        Transformo negócios reais em presença digital de verdade — sites que vendem, convencem e representam quem você é.
+      </p>
+      <div class="hero-acoes">
+        <a href="#projetos" class="btn-primario">Ver projetos</a>
+        <a href="mailto:luccafzc@gmail.com" class="btn-ghost">luccafzc@gmail.com</a>
+      </div>
+    </div>
+    <div class="hero-lateral">
+      <div class="hero-numero-grande">3</div>
+      <div class="hero-lateral-texto">projetos<br>no portfólio</div>
+      <div class="hero-scroll">
+        <span>scroll</span>
+        <div class="scroll-linha"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <div class="projetos-header">
+      <span class="secao-num">01</span>
+      <h2 class="secao-titulo">Projetos</h2>
+    </div>
+
+    <!-- Café Mirante -->
+    <article class="projeto" data-index="01">
+      <div class="projeto-visual pv-cafe">
+        <div class="pv-overlay"></div>
+        <div class="pv-conteudo">
+          <span class="pv-categoria">Cafeteria · Gastronomia</span>
+          <h3 class="pv-nome">Café Mirante</h3>
+        </div>
+      </div>
+      <div class="projeto-info">
+        <div class="pi-num">01</div>
+        <div class="pi-corpo">
+          <h3 class="pi-titulo">Café Mirante</h3>
+          <p class="pi-desc">
+            Site completo para cafeteria especial em Belo Horizonte, num casarão histórico de 1924. Design sofisticado com tipografia serifada, tons creme e marrom, cardápio, brunch de fim de semana e formulário de reservas.
+          </p>
+          <div class="pi-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Design editorial</span>
+            <span>Formulário</span>
+          </div>
+          <a href="#contato" class="pi-link">Quero um site assim →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Navalha & Co. -->
+    <article class="projeto projeto-invertido" data-index="02">
+      <div class="projeto-visual pv-navalha">
+        <div class="pv-overlay"></div>
+        <div class="pv-conteudo">
+          <span class="pv-categoria">Barbearia · Premium</span>
+          <h3 class="pv-nome">Navalha & Co.</h3>
+        </div>
+      </div>
+      <div class="projeto-info">
+        <div class="pi-num">02</div>
+        <div class="pi-corpo">
+          <h3 class="pi-titulo">Navalha & Co.</h3>
+          <p class="pi-desc">
+            Grooming studio premium no Rio de Janeiro. Visual escuro com tipografia impactante, tabela de serviços, planos de assinatura mensal, depoimentos e agendamento online. Arquivos HTML, CSS e JS separados.
+          </p>
+          <div class="pi-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsivo</span>
+          </div>
+          <a href="#contato" class="pi-link">Quero um site assim →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Viva Urbano -->
+    <article class="projeto" data-index="03">
+      <div class="projeto-visual pv-viva">
+        <div class="pv-overlay"></div>
+        <div class="pv-conteudo">
+          <span class="pv-categoria">Imobiliária · Proptech</span>
+          <h3 class="pv-nome">Viva Urbano</h3>
+        </div>
+      </div>
+      <div class="projeto-info">
+        <div class="pi-num">03</div>
+        <div class="pi-corpo">
+          <h3 class="pi-titulo">Viva Urbano</h3>
+          <p class="pi-desc">
+            Imobiliária digital para apartamentos compactos em Curitiba. Busca com filtros dinâmicos, cards de imóveis com favoritar, modal interativo, seção de bairros e formulário de contato. Projeto mais técnico do portfólio.
+          </p>
+          <div class="pi-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Filtros dinâmicos</span>
+            <span>Modal</span>
+          </div>
+          <a href="#contato" class="pi-link">Quero um site assim →</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="contato-ruido"></div>
+    <div class="contato-wrap">
+      <div class="contato-esq">
+        <span class="secao-num light">02</span>
+        <h2 class="secao-titulo light">Vamos<br><em>trabalhar</em><br>juntos?</h2>
+        <p class="contato-texto">
+          Me conta o seu projeto. Respondo em até algumas horas pelo WhatsApp ou e-mail.
+        </p>
+        <div class="contato-links">
+          <a href="https://wa.me/5549998258396" target="_blank" class="clink">
+            <span class="clink-label">WhatsApp</span>
+            <span class="clink-valor">(49) 9 98258-396</span>
+          </a>
+          <a href="mailto:luccafzc@gmail.com" class="clink">
+            <span class="clink-label">E-mail</span>
+            <span class="clink-valor">luccafzc@gmail.com</span>
+          </a>
+          <div class="clink">
+            <span class="clink-label">Localização</span>
+            <span class="clink-valor">São Miguel do Oeste · SC</span>
+          </div>
+        </div>
+      </div>
+      <form class="contato-form" id="contatoForm">
+        <div class="fg">
+          <label>Seu nome</label>
+          <input type="text" placeholder="João Silva" required>
+        </div>
+        <div class="fg">
+          <label>WhatsApp ou e-mail</label>
+          <input type="text" placeholder="(49) 99999-0000 ou joao@email.com" required>
+        </div>
+        <div class="fg">
+          <label>Que tipo de site você precisa?</label>
+          <select required>
+            <option value="">Selecione</option>
+            <option>Landing page (1 página)</option>
+            <option>Site institucional (3–5 páginas)</option>
+            <option>Site com catálogo ou filtros</option>
+            <option>Outro — vou explicar abaixo</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>Conta mais sobre o projeto</label>
+          <textarea placeholder="Qual é o seu negócio? Tem referências de sites que gosta? Qual é o prazo?"></textarea>
+        </div>
+        <button type="submit" class="form-btn">Enviar mensagem</button>
+        <p class="form-ok" id="formOk">Mensagem recebida! Te respondo em breve. 👋</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">FL<span>.</span></div>
+    <p class="footer-copy">© 2024 Felipe Lucca da Cunha · Desenvolvimento Web</p>
+    <a href="https://wa.me/5549998258396" target="_blank" class="footer-wa">WhatsApp →</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
